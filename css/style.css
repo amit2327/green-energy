@@ -1,0 +1,139 @@
+
+li {list-style: none;
+    text-align: left;
+    padding: 1rem;
+    background-color: rgb(36, 124, 7);
+    border-radius: 1rem;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+nav ul{ text-align: left;
+    padding: 0rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+#active-button { background-color: rgb(40, 77, 37);
+    color: aliceblue;
+}
+
+button {padding: 1rem 2rem;
+}
+
+.controls {text-align: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+}
+
+h2 {
+    size: 4rem;
+}
+
+.masthead {
+    position: relative;
+}
+
+.masthead h1 {
+    font-size: 1.2rem;
+}
+
+.masthead p {
+    font-size: .9rem;
+}
+
+.content { position: absolute;
+            top: 25%;
+            left: auto;
+            text-align: center;
+            color: aliceblue;
+
+}
+
+img {height: auto;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 0;
+    margin-top: 3rem;
+    font-size: .8rem;
+}
+
+@media only screen and (min-width:45em) {
+    li {list-style: none;
+        text-align: center;
+        padding: 1rem;
+        background-color: rgb(36, 124, 7);
+        border-radius: 1rem;
+        margin: 1rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    nav ul{ text-align: center;
+        padding: 0rem;
+    }
+
+    .content { position: absolute;
+        top: 30%;
+        left: auto;
+        bottom: auto;
+        text-align: left;
+        color: aliceblue;
+    }
+    
+    .masthead h1 {
+        font-size: 3rem;
+    }
+
+    .masthead p {
+        font-size: 1rem;
+    }
+
+    .dynamic-content{
+        display: flex;
+    }
+
+    .dynamic-content img{
+        width: 25%;
+    }
+
+    .dynamic-content .dd-content{
+        float: left;
+        padding-left: 2rem;
+    }
+
+   
+}
+
+@media only screen and (min-width:60em) {
+    
+li {display: inline-block;
+    padding: 2rem;
+    background-color: rgb(36, 124, 7);
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.content { position: absolute;
+    top: 30%;
+    right: auto;
+    bottom: auto;
+    text-align: left;
+    padding-left: 4rem;
+    color: aliceblue;
+}
+
+.masthead p {
+    font-size: 2rem;
+}
+
+.masthead h1 {
+    font-size: 4rem;
+}
+}
